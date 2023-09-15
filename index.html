@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <meta name="description"
+        content="Effortlessly create QR codes for text or URLs with our simple, user-friendly app. No downloads required! Streamline your QR code needs hassle-free.">
+</head>
+
+<body>
+    <header>
+        <h1>QR Code Generator</h1>
+    </header>
+    <div class="container">
+      <p>Enter Your Text or URL To Generate QR code</p>
+      <input type="text" placeholder="Text or URL" id="qrText">
+      <div class="imgBox">
+        <img src="" id="qrImg">
+      </div>
+      <button onclick="generateQR()">Generate QR code</button>
+    </div>
+    <footer>
+        <p>&copy; 2023 QR Code Generator By Hamza</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
